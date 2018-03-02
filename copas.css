@@ -1,6 +1,6 @@
 body {
  background-color:#c15236;
-  font-family:"Arial";
+  font-family:'Arial';
   padding:2em 6em;
 }
 h1{
@@ -43,8 +43,8 @@ h1{
 }
 
 .acc-kontainer label:before {
-  font-family: 'Font Awesome 5 Solid';
-  content: "\f067";
+  font-family: 'FontAwesome';
+  content: '\f067';
   font-weight: bolder;
   float: right;
 }
@@ -54,8 +54,8 @@ h1{
 }
 
 .acc-kontainer input:checked+label:before {
-  font-family: 'Font Awesome 5 Solid';
-  content: '\f068';
+  font-family: 'FontAwesome';
+  content: '\f00d';
   transition: 0.5s;
 }
 
