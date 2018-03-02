@@ -55,7 +55,7 @@ h1{
 
 .acc-kontainer input:checked+label:before {
   font-family: 'FontAwesome';
-  content: '\f00d';
+  content: '\f068';
   transition: 0.5s;
 }
 
