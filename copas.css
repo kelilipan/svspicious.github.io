@@ -23,10 +23,10 @@ a:hover, a:focus {
 }
 /*--------Accordion-------*/
 .acc-kontainer {
-  padding: 100px 0;
+  padding: 20px 0;
   display: block;
   clear: both;
-  width: 80%;
+  width: 70%;
   margin: 50px auto;
 }
 .acc-kontainer .acc-body {
@@ -111,4 +111,13 @@ a:hover, a:focus {
   line-height: 1.5em;
 }
 
+
+@media (min-width: 900px) {
+  .acc-kontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+  }
 
