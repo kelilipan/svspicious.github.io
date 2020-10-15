@@ -27,7 +27,6 @@ jobs:
           touch out/.nojekyll
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_SECRET }}
-          
         - name: Deploy 🚀
           uses: JamesIves/github-pages-deploy-action@3.6.1
           with:
